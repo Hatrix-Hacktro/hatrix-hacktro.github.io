@@ -50,7 +50,9 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 390px;
+    flex: 1;
+    width: 95%;
+    max-width: 500px;
     left: 50%;
     transform: translateX(-50%);
     justify-content: center;
@@ -68,7 +70,7 @@
 
 .selfheadline1
 {
-    color: rgb(142, 72, 255);
+    color: rgb(142, 72, 255);
 }
 .pfp
 {   
@@ -82,5 +84,5 @@
 .infotextself
 {
     line-height: 25px;
-    color: rgb(142, 72, 255);
+    color: rgb(142, 72, 255);
 }
