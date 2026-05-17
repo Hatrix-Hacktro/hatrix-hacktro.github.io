@@ -5,6 +5,7 @@
         left: 50%;
         transform: translateX(-50%);
         justify-content: center;
+        margin-bottom: 20px;
 }
 .headtext{
     margin-bottom: 0px;
@@ -41,4 +42,53 @@
 {
         display: flex;
         flex-direction: column;
+}
+
+.selfdiscription
+{
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+    background-color: #1b0064;
+    box-shadow: 0 0 50px 10px #1b0064;
+    column-gap: 20px;
+}
+
+.selfdiscriptionpart1
+{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.selfheadline1
+{
+    color: rgb(142, 72, 255);
+    text-shadow:
+        0 0 20px rgba(41, 0, 107, 0.8),
+        0 0 40px rgba(41, 0, 107, 0.6),
+        0 0 80px rgba(41, 0, 107, 0.4);
+}
+.pfp
+{   
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.selfdiscriptionpart2
+{
+    padding-left: 10px;
+}
+.infotextself
+{
+    line-height: 25px;
+    color: rgb(142, 72, 255);
+    text-shadow:
+        0 0 20px rgba(41, 0, 107, 0.8),
+        0 0 40px rgba(41, 0, 107, 0.6),
+        0 0 80px rgba(41, 0, 107, 0.4);
 }
