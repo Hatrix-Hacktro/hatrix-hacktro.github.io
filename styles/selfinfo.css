@@ -74,7 +74,7 @@
 }
 .pfp
 {   
-    margin-top: 40px;
+    margin-top: 3px;
     border-radius: 50%;
 }
 .selfdiscriptionpart2
@@ -83,6 +83,6 @@
 }
 .infotextself
 {
-    line-height: 25px;
+    line-height: 35px;
     color: rgb(142, 72, 255);
 }
